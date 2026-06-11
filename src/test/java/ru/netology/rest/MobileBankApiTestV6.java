@@ -12,7 +12,7 @@ class MobileBankApiTestV6 {
     private final RequestSpecification requestSpec = new RequestSpecBuilder()
             .setBaseUri("http://localhost")
             .setBasePath("/api/v1")
-            .setPort(9999)
+            .setPort(8000)
             .setAccept(ContentType.JSON)
             .setContentType(ContentType.JSON)
             .log(LogDetail.ALL)
